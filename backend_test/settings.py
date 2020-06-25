@@ -26,7 +26,7 @@ ROOT_URLCONF = 'users.urls'
 SECRET_KEY = '&7-2$j==0y(5gefrhwub#tep*6(4hsf01w0ck++-*kqdax95@9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -127,4 +127,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_ROOT = BASE_DIR + '/media'
+MEDIA_URL = '/media/'
 
