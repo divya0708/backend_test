@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url, include
 from django.conf.urls.static import static
-from varadhischool import settings
+from backend_test import settings
 
 
 urlpatterns = [
