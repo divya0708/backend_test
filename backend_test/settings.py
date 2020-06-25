@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/2.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
-import django_heroku
 import os
 
 
@@ -27,7 +26,7 @@ ROOT_URLCONF = 'users.urls'
 SECRET_KEY = '&7-2$j==0y(5gefrhwub#tep*6(4hsf01w0ck++-*kqdax95@9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -129,5 +128,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-#Activate Django-Heroku
-django_heroku.settings(locals())
